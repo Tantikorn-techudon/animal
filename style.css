@@ -1,4 +1,51 @@
-body { font-family: sans-serif; text-align: center; padding: 50px; background: #f4f4f4; }
-nav { margin-bottom: 20px; font-size: 18px; }
-nav a { text-decoration: none; color: #0070f3; margin: 0 10px; }
-h1 { color: #333; }
+
+@import url('https://googleapis.com');
+
+body {
+    font-family: 'Fredoka', 'Noto Sans Thai', sans-serif;
+    background-color: #fcf8f2; 
+    color: #4a3f35; 
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    text-align: center;
+}
+
+
+nav {
+    margin-bottom: 40px;
+    background-color: #ffffff;
+    padding: 12px 30px;
+    border-radius: 30px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05); 
+}
+
+nav a {
+    text-decoration: none;
+    color: #ff9f43; 
+    font-weight: 600;
+    margin: 0 15px;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #ee5253; 
+}
+
+
+h1 {
+    font-size: 2.8rem;
+    color: #d35400; 
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1.2rem;
+    color: #7f8c8d;
+    max-width: 600px;
+    line-height: 1.6;
+}
